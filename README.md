@@ -1,5 +1,7 @@
 # NGINX com Microsserviços: Cache e Compressão 🚀
 
+![Fluxograma](./fluxogram.png)
+
 Este projeto demonstra uma arquitetura simples utilizando NGINX como **reverse proxy** na frente de um microsserviço Node.js/Express. O NGINX é configurado para lidar com cache de respostas e compressão gzip, otimizando a entrega de dados do microsserviço.
 
 ---
@@ -26,6 +28,7 @@ nginx-microservices-example/
 │   └── package.json           # Dependências e scripts do Node.js
 ├── nginx/                     # Configuração do NGINX
 │   └── nginx.conf             # Arquivo de configuração principal do NGINX
+├── fluxogram.png              # Fluxograma da arquitetura
 └── docker-compose.yml         # Orquestração dos containers
 ```
 
