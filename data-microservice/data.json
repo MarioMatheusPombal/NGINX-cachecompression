@@ -1,0 +1,26 @@
+{
+  "message": "Olá do Microsserviço de Dados!",
+  "timestamp": "2024-07-25T10:00:00Z",
+  "items": [
+    { "id": 1, "name": "Item A", "value": 100, "description": "Este é o primeiro item de uma lista de exemplos para demonstrar o cache e a compressão com NGINX e microsserviços. Ele contém texto suficiente para que a compressão seja notável." },
+    { "id": 2, "name": "Item B", "value": 200, "description": "O segundo item da lista, com mais detalhes para aumentar o tamanho da resposta. A ideia é simular uma carga de dados razoável que se beneficiaria de otimizações de rede." },
+    { "id": 3, "name": "Item C", "value": 300, "description": "Terceiro item, continuando a adicionar conteúdo. Quanto maior a resposta, mais evidente se torna o benefício da compressão gzip ou brotli configurada no NGINX." },
+    { "id": 4, "name": "Item D", "value": 400, "description": "Quarto item para garantir que temos uma quantidade significativa de dados. Isso ajuda a testar o ETag e o comportamento do Cache-Control." },
+    { "id": 5, "name": "Item E", "value": 500, "description": "Último item desta lista de exemplo. Todos estes dados serão servidos via JSON pelo microsserviço Node.js e passarão pelo NGINX." }
+  ],
+  "metadata": {
+    "source": "Exemplo de Microsserviço",
+    "version": "1.0.2",
+    "notes": "Estes são dados fictícios para fins de demonstração. Em um cenário real, os dados seriam dinâmicos e viriam de uma fonte de dados persistente, como um banco de dados. A estrutura aqui é intencionalmente um pouco verbosa para testar a compressão."
+  },
+  "additional_info": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+    "Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+  ]
+}
